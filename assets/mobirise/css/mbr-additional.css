@@ -534,7 +534,19 @@ h6,
 #msg-box8-6 p {
   color: #fff;
 }
+#msg-box8-6 .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box8-6 .lead P {
+  color: #ffffff;
+}
 #msg-box8-9 .mbr-section-title,
 #msg-box8-9 p {
   color: #fff;
+}
+#msg-box8-9 .mbr-section-title {
+  color: #ffffff;
+}
+#msg-box8-9 .lead P {
+  color: #ffffff;
 }
