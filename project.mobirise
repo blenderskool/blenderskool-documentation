@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "kaleidoscope-spectrum-node.html",
+    "currentPage": "index.html",
     "name": "Blender Skool Documentation",
     "theme": {
       "name": "mobirise3",
@@ -272,7 +272,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 <a href=\"http://www.blenderskool.cf\">Blender Skool</a>."
+          "text": "Copyright (c) 2017&nbsp;<a href=\"http://www.blenderskool.cf\">Blender Skool</a>."
         }
       ]
     },
@@ -1967,7 +1967,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 <a href=\"http://www.blenderskool.cf\">Blender Skool</a>."
+          "text": "Copyright (c) 2017&nbsp;<a href=\"http://www.blenderskool.cf\">Blender Skool</a>."
         }
       ]
     },
