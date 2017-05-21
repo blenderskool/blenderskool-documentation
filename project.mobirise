@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "enrich.html",
     "name": "Blender Skool Documentation",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.11.1",
-    "uniqCompNum": 81,
+    "uniqCompNum": 88,
     "versionPublish": "3.11.1",
     "google-analytics": "<!--Start of Tawk.to Script-->\r\n<script type=\"text/javascript\">\r\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\r\n(function(){\r\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\r\ns1.async=true;\r\ns1.src='https://embed.tawk.to/56c612c68d4a470c0c01d46c/default';\r\ns1.charset='UTF-8';\r\ns1.setAttribute('crossorigin','*');\r\ns0.parentNode.insertBefore(s1,s0);\r\n})();\r\n</script>\r\n<!--End of Tawk.to Script-->\r\n<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-91278435-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>\r\n\r\n<script src=\"//load.sumome.com/\" data-sumo-site-id=\"4077a5e7c0ada519605fc0bd67a9b2723c9dd9617bb3d53e42e4a4bf8ee94e52\" async=\"async\"></script>\r\n"
   },
@@ -178,7 +178,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cover2-600x243.png",
+              "src": "@PROJECT_PATH@/assets/images/main-cover-600x238.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -413,6 +413,64 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-29",
+          "_params": {
+            "imageSize": "56",
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/thumb-1400x591.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ENRICH 1.1",
+          "text": "Check out what's new with the &nbsp;new Enrich add-on update.<br>(PS: It is super awesome!)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"enrich-1-1.html\" data-toolbar=\"-mbrBtnMove\">VIEW</a>",
+          "_styles": {
+            "H3": {
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "features3",
           "_anchor": "features3-7",
           "_params": {
@@ -589,7 +647,7 @@
       "settings": {
         "title": "Getting Started with Enrich - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -820,7 +878,7 @@
       "settings": {
         "title": "Using the Enrich add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1051,7 +1109,7 @@
       "settings": {
         "title": "Custom Presets with Enrich - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1282,7 +1340,7 @@
       "settings": {
         "title": "Uninstalling and Updating Enrich - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -1513,7 +1571,7 @@
       "settings": {
         "title": "Installing the Kaleidoscope add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -1744,7 +1802,7 @@
       "settings": {
         "title": "The Spectrum node of Kaleidoscope add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -1975,7 +2033,7 @@
       "settings": {
         "title": "Setup Sync in Kaleidoscope add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -2206,7 +2264,7 @@
       "settings": {
         "title": "User Preferences in Kaleidoscope add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -2437,7 +2495,7 @@
       "settings": {
         "title": "Using Spectrum node of Kaleidoscope add-on in a Scene - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -2668,7 +2726,7 @@
       "settings": {
         "title": "The Intensity node of Kaleidoscope add-on - Blender Skool Documentation",
         "meta_descr": "Website Generator Description",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -2899,7 +2957,7 @@
       "settings": {
         "title": "Kaleidoscope Add-on Documentation | Blender Skool Documentation ",
         "meta_descr": "Web Page Maker Description",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -3305,6 +3363,237 @@
         {
           "_name": "footer1",
           "_anchor": "footer1-27",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 <a href=\"http://www.blenderskool.cf\">Blender Skool</a>."
+        }
+      ]
+    },
+    "enrich-1-1.html": {
+      "settings": {
+        "title": "1.1 update of Enrich- Blender Skool Documentation",
+        "meta_descr": "Website Generator Description",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2a",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/drawing-lowest-no-cropped-146x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">DOCUMENTATION</a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">ADD-ONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"enrich.html\">Enrich<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"kaleidoscope.html\">Kaleidoscope</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://www.blenderskool.cf\" target=\"_blank\">GO TO THE MAIN SITE</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2b",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cover2-2000x810.png",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "The 1.1 update",
+          "text": "of Enrich add-on",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-2c",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#1e1e1e",
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/wC5Z-7wn0Hw",
+              "autoplay": false,
+              "loop": false,
+              "active": true,
+              "aspectratio": "16:9"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "UL": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "content1-2d",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>The 1.1 update of the Enrich add-on ships with a range of features and options to improve your workflow and visual experience while compositing in Blender.</p><p><br></p><p>Changelog of 1.1 update:</p><p><b>Additions</b>:</p><p>* New Preset type - \"Enrich Values\" Allows you to save Enrich Panel settings which can be loaded later on.</p><p>* 5 new Default presets - Bloom, Boost, Creek, Limits, and Pinch.</p><p>* Option to use Render as Thumbnails in Presets menu.</p><p>* Option to control the resolution of Thumbnails Generated.</p><p>* Option to revert to Original thumbnails if render thumbnails are used.</p><p>* Window to choose Custom Thumbnail or let Enrich Generate thumbnail for a custom Preset.</p><p>* Option to Generate Thumbnails for a Custom Preset during its installation.</p><p>* New Notification - \"Version Fix\" analyses old blend files and updates it to work with Enrich 1.1.</p><p>* Animation support - Nearly all the Enrich Panel values can be animated.</p><p>* Blend Mode option for Tint Settings.</p><p>* Option to Favorite a Preset.</p><p>* Support for Dynamic Categories (Uses Folders in the 'icon' folder for category).</p><p>* Categories Menu to the Interface.</p><p>* Favorites Category to the Categories menu.</p><p>* Search Option for the Presets Menu.</p><p>* Search Button in the Enrich Panel.</p><p>* A Button in Preferences to open the Documentation.</p><p>* Icon to Color Correction Settings Label.</p><p>* Suggestions for Naming a Custom preset.</p><p>* Suggestions for Order of Inputs and Outputs of Custom Preset.</p><p>* Up and Down selection Buttons in Presets List.</p><p>* Option to Refresh Presets list in User Preferences.</p><p>* Option to Select External Image, Image sequence, Movie or Render Layer to Edit with Enrich.</p><p>* Option to properly scale an external image while editing.</p><p>* Scene Settings Box in the Enrich panel.</p><p>* Option to View the Vignette Mask in Vignette Settings.</p><p>* Tint Z-ramp to control the Z-depth map separately for Tint.</p><p>* Option to view the Tint Z-depth Map.</p><p>* Blur Slider in Defocus Settings.</p><p>* Single Temperature Slider in the Color Correction Settings.</p><p>* Option to reset the Enrich Panel to its default values.</p><p>* Better Messages when a process is completed in the add-on.</p><p>* Icon to be included in Custom Thumbnail generation.</p><p><br></p><p><b>Improvements</b>:</p><p>* Spacing Heights in the Enrich Panel.</p><p>* Removing Custom Preset, also removes related blend file too.</p><p>* The Preset Export Option, which now opens the File Browser automatically.</p><p>* Preferences Interface.</p><p>* Notifications to work with new categories system.</p><p>* Presets List to work with new categories system.</p><p>* Custom Preset Installation Process.</p><p>* Framework to load an Enrich Preset.</p><p>* Next and Previous Preset buttons to work with new Categories system.</p><p>* Default Thumbnails to much better thumbnails which give a better preview of Preset.</p><p>* Enrich Interface - Boxes now render under the column, hence UI looks much cleaner.</p><p>* Presets List - size is much bigger.</p><p>* Size of Thumbnails in Preset thumbnails.</p><p>* Resolution of Default thumbnails - Much faster to load.</p><p>* The background ui_mode.txt file and other text files to a single 'settings.json' file.</p><p>* All the add-on external web page links to blskl.cf service.</p><p>* Save Image Interface.</p><p>* Default values for the z-depth ramps.</p><p>* Links Switching while viewing a z-depth ramp.</p><p>* Grammatical errors in some parts of the Interface.</p><p>* Z-depth ramps Interface.</p><p>* Z-ramps are now lesser sensitive.</p><p>* RGB Curves Interface.</p><p>* Split Factor Default value</p><p>* Temperature slider to a single slider. Positive is for warmth, Negative for coolness.</p><p>* Support with other Color Managements.</p><p>* Interface for Tint, Mist, and Defocus - Bringing all essential values to the top.</p><p>* Load time for checking add-on updates and changelogs.</p><p>* Default Presets code file - Runs faster.</p><p>* Preset Export Process includes Enrich values too.</p><p>* Removing Enrich now resets the Enrich Properties to their default values.</p><p><br></p><p><b>Fixes</b>:</p><p>* Showed 'Preset Installed' after one preset is installed.</p><p>* Error when Enrich was Generated in Edit Mode of Object.</p><p>* Changed Icon for Lens Effects Settings.</p><p>* The Custom Preset Installing Name Checking System.</p><p>* Different name used when a custom Preset was installed.</p><p>* Reloading the add-on after Custom Preset was installed.</p><p><br></p><p><b>Removed</b>:</p><p>* FilePath input option for exporting presets. (File Browser opens when Export presets is clicked)</p><p>* Temperature Settings Box (moved to Color Correction settings)</p><p>* Sliders for Warmth, Coolness, and Strength (Merged in a single slider)</p><p>* Defocus Node interface in Defocus Settings (Shows only Blur Slider)</p><p><br></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2e",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/MKH/AppData/Local/Mobirise.com/Mobirise/projectData/enrich_documentation_background-2000x1456_2.png",
+            "bgColor": "#1b1b1b",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "NEED HELP?",
+          "text": "<p>I don't want you to be in trouble, that's why just ask me<br><span style=\"font-size: 1.07rem; line-height: 1.5;\">and I will help you with the problem</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.blenderskool.cf/contact\" data-toolbar=\"-mbrBtnMove\">CONTACT ME</a> "
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2f",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
