@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Spectrum node - Kaleidoscope add-on</title>
+	<meta name="description" content="How to use the Spectrum node to create color palettes of the Kaleidoscope add-on for Blender">
+
+	<link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/post_styles.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/kaleidoscope_styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('.footer').load('../../layouts/footer.html');
+				$('.navigation-bar').load('../../layouts/header.html')
+				$('.contact').load('../../layouts/contact_section.html')
+				$('.to-top-container').load('../../layouts/to_top.html')
+			});
+	</script>
+	<script type="text/javascript" src="/resources/js/head_script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="navigation-bar"></div>
+		<div class="headline">Using Spectrum node</div>
+	</div>
+
+	<div class="video-container">
+		<div class="video">
+			<iframe width="1080" height="720" src="https://www.youtube.com/embed/XVfv3-HY5nM?rel=0" frameborder="0"></iframe>
+		</div>
+		<div class="description">
+			<p>In this video I will be showing you how to use the Spectrum node of the Kaleidoscope add-on in a Scene in Blender.The Spectrum node can be used just like any other node inside Blender.</p>
+			<p>Spectrum has 5 color outputs that can be connected to apply the Color from the Spectrum node to any other node input. The colors from the palette can also be <i>modified using Hue Saturation node or the MixRGB node</i>. This would allow you to change a color <b>non destructively</b>.The ColorRamp option of the node allows you to apply the colors from the Spectrum node to the ColorRamp specified in this option. The ramp is then <b>invisibly</b> connected and every change in the palette gets automatically reflected to the ColorRamp.</p>
+			<p>
+				<b>NOTE:</b> Reroute nodes are not supported by the Spectrum node. Hence reroute node links will be removed if used. (But the links with other nodes are preserved)
+			</p>
+		</div>
+	</div>
+	<div class="divider"></div>
+
+	<div class="contact">
+	</div>
+
+	<div class="to-top-container" onclick="back_to_top()">
+	</div>
+
+	<div class="footer"></div>
+
+	<script type="text/javascript" src="../../resources/js/script.js"></script>
+</body>
+</html>

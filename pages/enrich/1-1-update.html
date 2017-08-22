@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1.1 update features - Enrich add-on</title>
+	<meta name="description" content="Overview of 1.1 update features of the Enrich add-on for Blender">	
+
+	<link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/post_styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('.footer').load('../../layouts/footer.html');
+				$('.navigation-bar').load('../../layouts/header.html')
+				$('.contact').load('../../layouts/contact_section.html')
+				$('.to-top-container').load('../../layouts/to_top.html')
+			});
+	</script>
+	<script type="text/javascript" src="/resources/js/head_script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="navigation-bar"></div>
+		<div class="headline">1.1 Update Features</div>
+	</div>
+
+	<div class="video-container">
+		<div class="video">
+			<iframe width="1080" height="720" src="https://www.youtube.com/embed/7fvDm4wQ7h4?rel=0" frameborder="0"></iframe>
+		</div>
+		<div class="description">
+			<p>The 1.1 update of the Enrich add-on ships with a range of features and options to improve your workflow and visual experience while compositing in Blender. These new features make the Enrich add-on an essential tool, to make the most out of Blender's compositor. Now you can edit external images, image sequences directly through Enrich. The Enrich Panel in upgraded to categorize, search and favorite your presets. The new Enrich Panel is much cleaner with all the options you would need.</p>
+			<p><b>Changelog of the 1.1 update:</b></p>
+			<ul>
+				<b>Additions:</b>
+				<li>New Preset type - &#34;Enrich Values&#34; Allows you to save Enrich Panel settings which can be loaded later on.</li>
+				<li>5 new Default presets - Bloom, Boost, Creek, Limits, and Pinch.</li>
+				<li>Option to use Render as Thumbnails in Presets menu.</li>
+				<li>Option to control the resolution of Thumbnails Generated.</li>
+				<li>Option to revert to Original thumbnails if render thumbnails are used.</li>
+				<li>Window to choose Custom Thumbnail or let Enrich Generate thumbnail for a custom Preset.</li>
+				<li>Option to Generate Thumbnails for a Custom Preset during its installation.</li>
+				<li>New Notification - &#34;Version Fix&#34; analyses old blend files and updates it to work with Enrich 1.1.</li>
+				<li>Animation support - Nearly all the Enrich Panel values can be animated.</li>
+				<li>Blend Mode option for Tint Settings.</li>
+				<li>Option to Favorite a Preset.</li>
+				<li>Support for Dynamic Categories (Uses Folders in the &#39;icon&#39; folder for category).</li>
+				<li>Categories Menu to the Interface.</li>
+				<li>Favorites Category to the Categories menu.</li>
+				<li>Search Option for the Presets Menu.</li>
+				<li>Search Button in the Enrich Panel.</li>
+				<li>A Button in Preferences to open the Documentation.</li>
+				<li>Icon to Color Correction Settings Label.</li>
+				<li>Suggestions for Naming a Custom preset.</li>
+				<li>Suggestions for Order of Inputs and Outputs of Custom Preset.</li>
+				<li>Up and Down selection Buttons in Presets List.</li>
+				<li>Option to Refresh Presets list in User Preferences.</li>
+				<li>Option to Select External Image, Image sequence, Movie or Render Layer to Edit with Enrich.</li>
+				<li>Option to properly scale an external image while editing.</li>
+				<li>Scene Settings Box in the Enrich panel.</li>
+				<li>Option to View the Vignette Mask in Vignette Settings.</li>
+				<li>Tint Z-ramp to control the Z-depth map separately for Tint.</li>
+				<li>Option to view the Tint Z-depth Map.</li>
+				<li>Blur Slider in Defocus Settings.</li>
+				<li>Single Temperature Slider in the Color Correction Settings.</li>
+				<li>Option to reset the Enrich Panel to its default values.</li>
+				<li>Better Messages when a process is completed in the add-on.</li>
+				<li>Icon to be included in Custom Thumbnail generation.</li>
+			</ul>
+			<ul>
+				<b>Improvements:</b>
+				<li>Spacing Heights in the Enrich Panel.</li>
+				<li>Removing Custom Preset, also removes related blend file too.</li>
+				<li>The Preset Export Option, which now opens the File Browser automatically.</li>
+				<li>Preferences Interface.</li>
+				<li>Notifications to work with new categories system.</li>
+				<li>Presets List to work with new categories system.</li>
+				<li>Custom Preset Installation Process.</li>
+				<li>Framework to load an Enrich Preset.</li>
+				<li>Next and Previous Preset buttons to work with new Categories system.</li>
+				<li>Default Thumbnails to much better thumbnails which give a better preview of Preset.</li>
+				<li>Enrich Interface - Boxes now render under the column, hence UI looks much cleaner.</li>
+				<li>Presets List - size is much bigger.</li>
+				<li>Size of Thumbnails in Preset thumbnails.</li>
+				<li>Resolution of Default thumbnails - Much faster to load.</li>
+				<li>The background ui_mode.txt file and other text files to a single &#39;settings.json&#39; file.</li>
+				<li>All the add-on external web page links to blskl.cf service.</li>
+				<li>Save Image Interface.</li>
+				<li>Default values for the z-depth ramps.</li>
+				<li>Links Switching while viewing a z-depth ramp.</li>
+				<li>Grammatical errors in some parts of the Interface.</li>
+				<li>Z-depth ramps Interface.</li>
+				<li>Z-ramps are now lesser sensitive.</li>
+				<li>RGB Curves Interface.</li>
+				<li>Split Factor Default value</li>
+				<li>Temperature slider to a single slider. Positive is for warmth, Negative for coolness.</li>
+				<li>Support with other Color Managements.</li>
+				<li>Interface for Tint, Mist, and Defocus - Bringing all essential values to the top.</li>
+				<li>Load time for checking add-on updates and changelogs.</li>
+				<li>Default Presets code file - Runs faster.</li>
+				<li>Preset Export Process includes Enrich values too.</li>
+				<li>Removing Enrich now resets the Enrich Properties to their default values.</li>
+			</ul>
+			<ul>
+				<b>Fixes:</b>
+				<li>Showed &#39;Preset Installed&#39; after one preset is installed.</li>
+				<li>Error when Enrich was Generated in Edit Mode of Object.</li>
+				<li>Changed Icon for Lens Effects Settings.</li>
+				<li>The Custom Preset Installing Name Checking System.</li>
+				<li>Different name used when a custom Preset was installed.</li>
+				<li>Reloading the add-on after Custom Preset was installed.</li>
+			</ul>
+			<ul>
+				<b>Removed:</b>
+				<li>FilePath input option for exporting presets. (File Browser opens when Export presets is clicked)</li>
+				<li>Temperature Settings Box (moved to Color Correction settings)</li>
+				<li>Sliders for Warmth, Coolness, and Strength (Merged in a single slider)</li>
+				<li>Defocus Node interface in Defocus Settings (Shows only Blur Slider)</li>
+			</ul>
+			<p>
+				I hope that you find this new update useful in your scenes in Blender. Do continue to share your thoughts about it, and new features for the future updates.
+			</p>
+		</div>
+	</div>
+	<div class="divider"></div>
+
+	<div class="contact">
+	</div>
+
+	<div class="to-top-container" onclick="back_to_top()">
+	</div>
+
+	<div class="footer"></div>
+
+	<script type="text/javascript" src="../../resources/js/script.js"></script>
+</body>
+</html>

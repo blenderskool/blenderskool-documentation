@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Setup Syncing - Kaleidoscope add-on</title>
+	<meta name="description" content="Setup syncing of saved palettes and values of Kaleidoscope add-on for Blender">
+
+	<link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/post_styles.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/kaleidoscope_styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('.footer').load('../../layouts/footer.html');
+				$('.navigation-bar').load('../../layouts/header.html')
+				$('.contact').load('../../layouts/contact_section.html')
+				$('.to-top-container').load('../../layouts/to_top.html')
+			});
+	</script>
+	<script type="text/javascript" src="/resources/js/head_script.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="navigation-bar"></div>
+		<div class="headline">Setup Syncing</div>
+	</div>
+
+	<div class="video-container">
+		<div class="video">
+			<iframe width="1080" height="720" src="https://www.youtube.com/embed/Q3LEvhJx37U?rel=0" frameborder="0"></iframe>
+		</div>
+		<div class="description">
+			<p>In this video I will be showing you how to setup syncing feature in the Kaleidoscope add-on.The Syncing feature of the Kaleidoscope add-on allows you to sync your saved palettes and values among all your devices with Kaleidoscope add-on.</p>
+			<p>
+				<ul><b>To setup syncing with Kaleidoscope add-on:</b>
+					<li>Register with a Cloud Storage service (Eg. <a href="https://www.dropbox.com/" target="_blank">Dropbox</a>, <a href="https://drive.google.com/" target="_blank">Google Drive</a>, etc). Download their Desktop app and Install it.</li>
+					<li>There should now be a folder created by that app. If you put any file in that folder, it will get synced automatically with your cloud storage.</li>
+					<li> the User Preferences of the Kaleidoscope add-on, select the <b>Path to Sync</b> as the path of the folder created by the app you installed.</li>
+					<li>Kaleidocope will automatically save your settings and use that folder for syncing.</li>
+				</ul>
+				<ul><b>If you want to retrive the files from other machine:</b>
+					<li>Download and install the same desktop app of the Cloud Storage service.</li>
+					<li>In the User Preferenced of the Kaleidoscope add-on, select <b>Path to Sync</b> as the path of the folder created by the app you installed.</li>
+					<li>Kaledioscope will automatically get the palettes and values saved in that directory.</li>
+				</ul>
+			</p>
+			<p style="text-align: left;">
+				<b>General Folder Structure Followed by the add-on:</b><br>
+				-Folder you choose:<br>
+				&emsp;- palettes:<br>
+				&emsp;&emsp;- all your palettes<br>
+				&emsp;- values:<br>
+				&emsp;&emsp;- all your values<br>
+			</p>
+		</div>
+	</div>
+	<div class="divider"></div>
+
+	<div class="contact">
+	</div>
+
+	<div class="to-top-container" onclick="back_to_top()">
+	</div>
+
+	<div class="footer"></div>
+
+	<script type="text/javascript" src="../../resources/js/script.js"></script>
+</body>
+</html>
