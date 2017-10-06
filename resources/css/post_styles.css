@@ -23,7 +23,7 @@
 	border-radius: 10px;
 	width: 75vw;
 	height: 45vw;
-	
+
 	margin: 0 auto;
 	margin-top: -70px;
 	-webkit-box-shadow: 0px 7px 70px -7px #5d5d5d;
@@ -78,23 +78,24 @@ iframe {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
-	
+
 	border-radius: 50px;
 	background-color: white;
 	color: black;
-	
+
 	padding: 10px;
 	padding-left: 30px;
 	padding-right: 30px;
 	display: table;
 	margin: 0 auto;
 	margin-top: 5vh;
-	
+
 	-webkit-box-shadow: 0px 0px 40px -10px #6b6b6b;
-	
+
 	box-shadow: 0px 0px 40px -10px #6b6b6b;
 	cursor: pointer;
-	
+	user-select: none;
+
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -105,7 +106,7 @@ iframe {
 	-webkit-box-shadow: 0px 7px 40px -5px rgba(0, 0, 0, 0.4);
 	box-shadow: 0px 7px 40px -5px rgba(0, 0, 0, 0.4);
 	font-size: 22px;
-	
+
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -113,20 +114,20 @@ iframe {
 }
 
 @media only screen and (max-width: 650px) {
-	
+
 	.description {
 		font-size: 14px;
 		margin: auto 5vw;
 		margin-top: 70px;
 	}
-	
+
 	.contact .headline {
 		font-size: 5vw;
 	}
 }
 
 @media only screen and (min-width: 1700px) {
-	
+
 	.contact .button {
 		font-size: 30px;
 		padding: 10px 40px;
@@ -137,12 +138,12 @@ iframe {
 }
 
 @media only screen and (min-width: 1980px) {
-	
+
 	.contact .button {
 		font-size: 40px;
 		padding: 15px 50px;
 	}
-	
+
 	.contact .button:hover {
 		font-size: 45px;
 	}

@@ -6,12 +6,14 @@ function open_mobile_menu() {
 	if ($('.navigation .menu-wrap').css("visibility") === "visible")
 	{
 		$('.navigation .menu-wrap').css({'visibility': 'hidden', 'opacity': 0});  // Close the Menu
-		$('.navigation').css({'background-color': 'rgba(0, 0, 0, 0)'})
+		$('.navigation').css({'background-color': 'rgba(0, 0, 0, 0)'});
+		document.getElementById('mobileMenuIcon').innerText = 'menu';
 	}
 	else
 	{
 		$('.navigation .menu-wrap').css({'visibility': 'visible', 'opacity': 1}); // Open the Menu
-		$('.navigation').css({'background-color': 'black'})
+		$('.navigation').css({'background-color': 'black'});
+		document.getElementById('mobileMenuIcon').innerText = 'close';
 	}
 }
 
