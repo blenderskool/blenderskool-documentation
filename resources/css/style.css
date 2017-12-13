@@ -720,8 +720,6 @@ a {
 
 }
 
-.crisp-client {
-	opacity: 1;
-	-webkit-transition: opacity 0.5s ease;
-	transition: opacity 0.5s ease;
+.appBeaconbeacon-container	{
+	bottom: 15px !important;
 }
