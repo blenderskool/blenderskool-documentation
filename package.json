@@ -1,0 +1,14 @@
+{
+  "name": "blender-skool-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "docbook build",
+    "dev": "docbook dev",
+    "start": "npm run dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docbook": "^0.6.1"
+  }
+}
