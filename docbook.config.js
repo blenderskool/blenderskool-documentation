@@ -10,7 +10,8 @@ module.exports = {
   plugins: {
     callout: 'https://docbook.netlify.com/plugins/callout.js',
     youtube: 'https://docbook.netlify.com/plugins/youtube.js',
-    icon: 'https://docbook.netlify.com/plugins/icons.js'
+    icon: 'https://docbook.netlify.com/plugins/icons.js',
+    btn: 'plugins/button'
   },
   navigation: [
     ['Go to main site', {
