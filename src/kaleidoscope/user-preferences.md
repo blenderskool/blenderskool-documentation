@@ -8,7 +8,7 @@ title: User preferences of Kaleidoscope add-on | Blender Skool Documentation
 	hBMdx0omd_k
 </youtube>
 
-In this video I will be showing you all the User Preferences Setting of the Kaleidoscope add-on in Blender.There are a few settings that come with the Kaleidoscope add-on which are other utitility options to improve your experience.
+In this video I will be showing you all the User Preferences Setting of the Kaleidoscope add-on in Blender. There are a few settings that come with the Kaleidoscope add-on which are other utitility options to improve your experience.
 
 
 ## Options

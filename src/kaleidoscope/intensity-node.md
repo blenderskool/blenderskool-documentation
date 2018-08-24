@@ -8,7 +8,7 @@ title: Intensity node of Kaleidoscope add-on | Blender Skool Documentation
 	LKlfM29mtxs
 </youtube>
 
-In this video, I will be showing you how to use the Intensity node of the Kaleidocope add-on in Blender.The Intensity node is created to provide you with a library of pre-defined values that can be used with your materials in your scene. So if you are creating a Glass material, and looking for the correct IOR value, you can use the Intensity node to find it out. All the values come with a common name, which makes it even easier to unserstand.
+In this video, I will be showing you how to use the Intensity node of the Kaleidocope add-on in Blender. The Intensity node is created to provide you with a library of pre-defined values that can be used with your materials in your scene. So if you are creating a Glass material, and looking for the correct IOR value, you can use the Intensity node to find it out. All the values come with a common name, which makes it even easier to unserstand.
 
 
 ## Categories in the node

@@ -8,7 +8,7 @@ title: Spectrum node in Kaleidoscope add-on | Blender Skool Documentation
 	b8aNKjXhBBU
 </youtube>
 
-In this video I will be showing you the Spectrum Node in the Kaleidocope add-on for Blender.Spectrum Node in the highlighting node of the Kaleidoscope add-on. It allows you to generate and browse through aesthetically pleasing and colorful color palettes directly inside Blender. These colors can then be used in your materials, Lighting, or even Worlds!
+In this video I will be showing you the Spectrum Node in the Kaleidocope add-on for Blender. Spectrum Node in the highlighting node of the Kaleidoscope add-on. It allows you to generate and browse through aesthetically pleasing and colorful color palettes directly inside Blender. These colors can then be used in your materials, Lighting, or even Worlds!
 
 
 ## Spectrum Node options

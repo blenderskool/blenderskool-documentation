@@ -8,7 +8,7 @@ title: Setup syncing in Kaleidoscope add-on | Blender Skool Documentation
 	Q3LEvhJx37U
 </youtube>
 
-In this video I will be showing you how to setup syncing feature in the Kaleidoscope add-on.The Syncing feature of the Kaleidoscope add-on allows you to sync your saved palettes and values among all your devices with Kaleidoscope add-on.
+In this video I will be showing you how to setup syncing feature in the Kaleidoscope add-on. The Syncing feature of the Kaleidoscope add-on allows you to sync your saved palettes and values among all your devices with Kaleidoscope add-on.
 
 
 ## Steps to setup syncing
