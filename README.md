@@ -1,4 +1,5 @@
-# blenderskool-documentation
-This is the documentation site of Blender Skool addons.
+## MIGRATED
+This repository is no longer supported and is outdated version of addon documentation for Blender Skool.
+The new documentation is now available at http://blenderskool.cf/docs
 
-To view the full site visit: http://docs.blenderskool.cf
+<sub>As a footnote, this project was a great learning experience for me :smiley:</sub>
